@@ -24,7 +24,7 @@ clear;clear;clear
 
   # // Banner
 echo -e "${YELLOW}----------------------------------------------------------${NC}"
-echo -e "  Dev > Ndra_VPN${YELLOW}(${NC}${green} Stable Edition ${NC}${YELLOW})${NC}"
+echo -e "  DIZZY FT NIXY${YELLOW}(${NC}${green} Stable Edition ${NC}${YELLOW})${NC}"
 echo -e " This Will Quick Setup VPN Server On Your Server"
 echo -e "  Auther : ${green}Ndra_VPN® ${NC}${YELLOW}(${NC} ${green} ðŸ‡®ðŸ‡©Ndra_VPNðŸ‡®ðŸ‡©  ${NC}${YELLOW})${NC}"
 echo -e " Â© Recode By My Self Ndra_VPN ${YELLOW}(${NC} 2023 ${YELLOW})${NC}"
