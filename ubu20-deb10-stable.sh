@@ -24,10 +24,10 @@ clear;clear;clear
 
   # // Banner
 echo -e "${YELLOW}----------------------------------------------------------${NC}"
-echo -e "  DIZZY FT NIXY${YELLOW}(${NC}${green} Stable Edition ${NC}${YELLOW})${NC}"
+echo -e "  DIZZY FT NIXY ${YELLOW}(${NC}${green} Stable Edition ${NC}${YELLOW})${NC}"
 echo -e " This Will Quick Setup VPN Server On Your Server"
-echo -e "  Auther : ${green}Ndra_VPN® ${NC}${YELLOW}(${NC} ${green} ðŸ‡®ðŸ‡©Ndra_VPNðŸ‡®ðŸ‡©  ${NC}${YELLOW})${NC}"
-echo -e " Â© Recode By My Self Ndra_VPN ${YELLOW}(${NC} 2023 ${YELLOW})${NC}"
+echo -e "  Auther : ${green}NIXY ${NC}${YELLOW}(${NC} ${green} TUNNELING ${NC}${YELLOW})${NC}"
+echo -e " Copyright NIXY PROJECT ${YELLOW}(${NC} 2020 ${YELLOW})${NC}"
 echo -e "${YELLOW}----------------------------------------------------------${NC}"
 echo ""
 sleep 2
