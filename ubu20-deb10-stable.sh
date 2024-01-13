@@ -270,7 +270,7 @@ restart_system(){
 MYIP=$(curl -sS ipv4.icanhazip.com)
 echo -e "\e[32mloading...\e[0m" 
 clear
-izinsc="https://raw.githubusercontent.com/nixyproject-cfd/m/main/m"
+izinsc="https://raw.githubusercontent.com/nixyproject-cfd/Security/main/iprib"
 # USERNAME
 rm -f /usr/bin/user
 username=$(curl $izinsc | grep $MYIP | awk '{print $2}')
@@ -312,7 +312,7 @@ URL="https://api.telegram.org/bot$KEY/sendMessage"
     TIMEZONE=$(printf '%(%H:%M:%S)T')
     TEXT="
 <code>━━━━━━━━━━━━━━━━━━</code>
-<b>âš¡AUTOSCRIPT VPN PREMIUMâš¡</b>
+<b>AUTOSCRIPT VPN PREMIUM</b>
 <code>━━━━━━━━━━━━━━━━━━</code>
 <code>User     :</code><code>$username</code>
 <code>Domain   :</code><code>$domain</code>
@@ -320,10 +320,10 @@ URL="https://api.telegram.org/bot$KEY/sendMessage"
 <code>ISP      :</code><code>$ISP</code>
 <code>DATE     :</code><code>$DATEVPS</code>
 <code>Time     :</code><code>$TIMEZONE</code>
-<code>Exp Sc.  :</code><code>$exp</code>
-<code>â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€</code>
-<b> ðŸ‡®ðŸ‡©ðŸ‡®ðŸ‡©NDRA_VPNðŸ‡®ðŸ‡©ðŸ‡®ðŸ‡©</b>
-<code>â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€</code>
+<b>Exp Sc.  :</b><code>$exp</code>
+<code>━━━━━━━━━━━━━━━━━━</code>
+<b> ━━━━━━━━━━━━━━━━━━</b>
+<code>━━━━━━━━━━━━━━━━━━</code>
 <i>Automatic Notifications From Github</i>
 "'&reply_markup={"inline_keyboard":[[{"text":"á´Ê€á´…á´‡Ê€","url":"https://wa.me/6285708391463"}]]}' 
 
