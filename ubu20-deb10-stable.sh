@@ -306,26 +306,17 @@ else
 sts="${Error}"
 fi
 TIMES="10"
-CHATID="5289385265"
+CHATID="-1001850051195"
 KEY="6525206851:AAEK0Wcrr86LiFOe8M0E4Vn9xH0qIPN8rqE"
 URL="https://api.telegram.org/bot$KEY/sendMessage"
     TIMEZONE=$(printf '%(%H:%M:%S)T')
     TEXT="
 <code>━━━━━━━━━━━━━━━━━━</code>
-<b>AUTOSCRIPT VPN PREMIUM</b>
-<code>━━━━━━━━━━━━━━━━━━</code>
-<code>User     :</code><code>$username</code>
-<code>Domain   :</code><code>$domain</code>
-<code>IPVPS    :</code><code>$MYIP</code>
-<code>ISP      :</code><code>$ISP</code>
-<code>DATE     :</code><code>$DATEVPS</code>
-<code>Time     :</code><code>$TIMEZONE</code>
-<b>Exp Sc.  :</b><code>$exp</code>
-<code>━━━━━━━━━━━━━━━━━━</code>
+<b>» AUTOSCRIPT VPN PREMIUM</b>
 <b> ━━━━━━━━━━━━━━━━━━</b>
-<code>━━━━━━━━━━━━━━━━━━</code>
-<i>Automatic Notifications From Github</i>
-"'&reply_markup={"inline_keyboard":[[{"text":"á´Ê€á´…á´‡Ê€","url":"https://wa.me/6285708391463"}]]}' 
+<i>» Berhasil terinstall</i>
+<b> ━━━━━━━━━━━━━━━━━━</b>
+"'&reply_markup={"inline_keyboard":[[{"text":"ORDER","url":"https://t.me/nixystore_id"}]]}' 
 
     curl -s --max-time $TIMES -d "chat_id=$CHATID&disable_web_page_preview=1&text=$TEXT&parse_mode=html" $URL >/dev/null
 }
