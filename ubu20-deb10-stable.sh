@@ -316,7 +316,7 @@ URL="https://api.telegram.org/bot$KEY/sendMessage"
 <b> ━━━━━━━━━━━━━━━━━━</b>
 <i>» Berhasil terinstall</i>
 <b> ━━━━━━━━━━━━━━━━━━</b>
-"'&reply_markup={"inline_keyboard":[[{"text":"ORDER","url":"https://t.me/nixystore_id"}]]}' 
+"'&reply_markup={"inline_keyboard":[[{"text":"ORDER","url":"https://t.me/nixy_store"}]]}' 
 
     curl -s --max-time $TIMES -d "chat_id=$CHATID&disable_web_page_preview=1&text=$TEXT&parse_mode=html" $URL >/dev/null
 }
